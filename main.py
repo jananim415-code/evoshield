@@ -32,6 +32,11 @@ def main():
         # Import PyQt5 components
         from PyQt5.QtWidgets import QApplication
         from PyQt5.QtGui import QFont, QIcon
+        
+        # Ensure UI components are accessible
+        if not (PROJECT_ROOT / "ui").exists():
+            raise ImportError("The 'ui' directory is missing. Please ensure you have the full project structure.")
+            
         from ui.main_window import EvoShieldWindow
         
         print("=" * 70)
