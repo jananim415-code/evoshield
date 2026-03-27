@@ -1,0 +1,154 @@
+================================================================================
+                    EvoShield AI - Quick Start Guide
+================================================================================
+
+GOOD NEWS! Your application now has multiple working modes:
+
+================================================================================
+                          INSTANT START (RECOMMENDED)
+================================================================================
+
+Open PowerShell or Command Prompt and run:
+
+    python cli.py
+
+This launches the full-featured terminal dashboard immediately - no issues!
+
+================================================================================
+                          ALTERNATIVE OPTIONS
+================================================================================
+
+Option 1: Auto-Mode (Tries GUI, falls back to CLI)
+    python main.py
+
+Option 2: Windows Click-and-Run Launcher
+    Double-click:  run.bat
+    Or run:        run.ps1
+
+Option 3: Demo Mode (Shows features, exits after)
+    python demo.py
+
+Option 4: Run Tests
+    python test_core.py
+
+================================================================================
+                          IF YOU'RE ON WINDOWS
+================================================================================
+
+Simply double-click ONE of these files:
+    - run.bat      (Batch launcher - simple menu)
+    - run.ps1      (PowerShell launcher - colored menu)
+
+Then select:
+    Option 2 for CLI Mode (always works)
+    Option 1 for Auto Mode (tries GUI first)
+
+================================================================================
+                          DETAILED NAVIGATION (CLI)
+================================================================================
+
+Once you run the application, you'll see a menu:
+
+    1) Dashboard      - View real-time threat status
+    2) Threat Scan    - Run system vulnerability scan
+    3) ML Analysis    - View ML model predictions
+    4) Logs           - Review security events
+    5) Settings       - View configuration
+    0) Exit           - Close application
+
+Just type the number and press Enter!
+
+================================================================================
+                          WHAT YOU'LL SEE
+================================================================================
+
+Dashboard shows:
+  ✓ Risk Score (0-100)
+  ✓ Threat Level (SAFE/LOW/MEDIUM/HIGH/CRITICAL)
+  ✓ Active Processes
+  ✓ CPU & Memory Usage
+  ✓ AI Predictions
+  ✓ Threat Trend Graph
+  ✓ Detected Threats
+
+All in beautiful colored terminal output!
+
+================================================================================
+                          TROUBLESHOOTING
+================================================================================
+
+Q: I see an error about PyQt5
+A: That's fine! Just run: python cli.py instead
+   OR select option 2 from run.bat menu
+
+Q: Application won't start
+A: Make sure you're in the correct folder:
+   cd c:\Users\chandu\Downloads\evoshield
+   Then: python cli.py
+
+Q: Dependencies missing
+A: Run once:
+   pip install -r requirements.txt
+
+Q: Still having issues?
+A: Read ISSUE_RESOLVED.md for complete troubleshooting
+
+================================================================================
+                          FULL DOCUMENTATION
+================================================================================
+
+After running, check these files for more info:
+
+  RUN_GUIDE.md           - Complete usage guide (IMPORTANT!)
+  README.md              - Full technical documentation
+  GETTING_STARTED.md     - Step-by-step setup
+  QUICK_REFERENCE.md     - Quick lookup table
+  BUILD_SUMMARY.md       - Project statistics
+  ISSUE_RESOLVED.md      - What was fixed
+
+================================================================================
+                          PUT SIMPLY
+================================================================================
+
+1. Open Command Prompt or PowerShell
+2. Navigate to: c:\Users\chandu\Downloads\evoshield
+3. Type:       python cli.py
+4. Press:      Enter
+5. Select:     1 for Dashboard
+6. Explore:    Use menu options 1-5
+7. Exit:       Type 0 when done
+
+That's it! Your EvoShield AI is running! 🛡️
+
+================================================================================
+                          VERIFY INSTALLATION
+================================================================================
+
+To double-check everything is working:
+
+    python test_core.py
+
+This will test all core modules and show you results.
+
+================================================================================
+                          GETTING HELP
+================================================================================
+
+Before running, make sure:
+  ✓ You're in directory: c:\Users\chandu\Downloads\evoshield
+  ✓ Python 3.8+ installed: python --version
+  ✓ Core files exist: dir should show main.py, cli.py, etc.
+
+Then just try running:
+  python cli.py
+
+If anything is unclear, read RUN_GUIDE.md!
+
+================================================================================
+                         YOU'RE ALL SET! 🎉
+================================================================================
+
+Run this now:
+    python cli.py
+
+Enjoy EvoShield AI! 🛡️
